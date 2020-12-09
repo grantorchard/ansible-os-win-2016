@@ -1,11 +1,6 @@
-- import_playbook: section01.yml
-
-- import_playbook: section02.yml
-
-- import_playbook: section09.yml
-
-- import_playbook: section17.yml
-
-- import_playbook: section18.yml
-
-- import_playbook: section19.yml
+- include: section01.yml
+- include: section02.yml
+- include: section09.yml
+- include: section17.yml
+- include: section18.yml
+- include: section19.yml
